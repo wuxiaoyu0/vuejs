@@ -1,20 +1,33 @@
-<template lang="html">
+<template>
+  <div id="app" class="container sycontainer">
+    <my-header :showTitle="headerTitle" ></my-header>
+    <router-view />
     <footer>
-        <ul>
-            <li v-for="(item,i) in menuItem"  @click="changeTab(i,item.headTitle)">
-              <router-link :to="item.link" class="menulink" v-bind:class="{ active: activeTab===i}">
-                <i class="iconfont" v-html="item.icon"></i>
-                {{ item.title }}
-              </router-link>                
-            </li>
-        </ul>
+      <ul>
+        <li v-for="(item,i) in menuItem"  @click="changeTab(i,item.headTitle)">
+          <router-link :to="item.link" class="menulink" v-bind:class="{ active: activeTab===i}">
+            <i class="iconfont" v-html="item.icon"></i>
+            {{ item.title }}
+          </router-link>                
+        </li>
+      </ul>
     </footer>
+  </div>
 </template>
 
 <script>
+require("../scripts/public.js");
+import Header from "./common/Header";
+
 export default {
-  data() {
+  name: "index",
+  components: {
+    "my-header": Header
+  },
+  data(){
     return {
+      headerTitle:"蓝狐阅读",
+      routerName:"",
       menuItem: [
         {
           title: "图书馆",
@@ -53,21 +66,25 @@ export default {
         }
       ],
       activeTab:0
-    };
+    }
   },
-  props:["routerN"],
   methods:{
-      changeTab: function(i,msg){
-          this.activeTab=i;
-          this.$emit("linkTab",msg);
-      }
+    changeTab: function(i,msg){
+      this.activeTab=i;
+      this.headerTitle = msg
+    }
+  },
+  created:function(){
+    this.routerName = this.$route.name;
   }
 };
+
+
 </script>
 
-
-
-<style lang="css" scoped>
+<style lang="css">
+@import "../assets/font/iconfont.css";
+@import "../style/common.css";
 .menulink{
 	flex: 1;
 	-webkit-flex: 1;
