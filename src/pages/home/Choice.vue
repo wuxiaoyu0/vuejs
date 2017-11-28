@@ -1,0 +1,65 @@
+<template>
+  <div class="chooice">
+        <div class="main">
+            <p><span>长按进行编辑</span><span class="iconfont icon-close2"></span></p>
+            <ul>
+                <li class="active">计算机</li>
+                <li>哲学</li>
+                <li>宗教</li>
+                <li>心理学</li>
+                <li>语言</li>
+                <li>文学</li>
+                <li>考古</li>
+                <li>民族</li>
+                <li>生活</li>
+                <li>财经</li>
+                <li>统计</li>
+                <li>社会</li>
+                <li>天文</li>
+                <li>地理</li>
+            </ul>
+            <p><span>点击添加更多频道</span></p>
+            <ul>
+                <li>数学</li>
+                <li>物理</li>
+                <li>化学</li>
+                <li>生物</li>
+                <li>机械</li>
+                <li>电信</li>
+                <li>水利</li>
+                <li>电力</li>
+                <li>纺织</li>
+                <li>食品</li>
+                <li>建筑</li>
+                <li>矿山</li>
+                <li>冶金</li>
+                <li>能源</li>
+                <li>交通</li>
+                <li>航天</li>
+                <li>医学</li>
+                <li>农学</li>
+                <li>林学</li>
+                <li>养殖</li>
+                <li>数学</li>
+                <li>物理</li>
+                <li>化学</li>
+                <li>生物</li>
+                <li>机械</li>
+                <li>电信</li>
+                <li>水利</li>
+                <li>电力</li>
+                <li>纺织</li>
+                <li>食品</li>
+                <li>建筑</li>
+                <li>矿山</li>
+                <li>冶金</li>
+                <li>能源</li>
+                <li>交通</li>
+                <li>航天</li>
+                <li>医学</li>
+                <li>农学</li>
+                <li class="more">更多</li>
+            </ul>
+        </div>
+    </div>
+</template>
