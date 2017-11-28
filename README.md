@@ -1,6 +1,6 @@
 # comehere
 
-> A Vue.js project
+> Vue project about read
 
 ## Build Setup
 
