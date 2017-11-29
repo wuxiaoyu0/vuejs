@@ -1,40 +1,43 @@
 <template>
   <div class="container">
 			<section class="reseverc">
-				<div class="list">
-					<p @click="toDetail(r.id)" class="bookpic"><img src="http://ogtx4h1fa.bkt.clouddn.com/tf_1.png"/></p>
+				<div @click="toDetail(r.id)" v-for="r in reserve" class="list">
+					<p class="bookpic"><img :src="r.image"/></p>
 					<div class="booktext">
-						<p>Javascript高级程序设计</p>
-						<p>翻译：布吉岛</p>
-						<p>藏书量：1200</p>
-					</div>
-				</div>
-				<div class="list">
-					<p class="bookpic"><img src="http://ogtx4h1fa.bkt.clouddn.com/tf_2.png"/></p>
-					<div class="booktext">
-						<p>Javascript高级程序设计</p>
-						<p>翻译：布吉岛</p>
-						<p>藏书量：1200</p>
-					</div>
-				</div>
-				<div class="list">
-					<p class="bookpic"><img src="http://ogtx4h1fa.bkt.clouddn.com/tf_3.png"/></p>
-					<div class="booktext">
-						<p>Javascript高级程序设计</p>
-						<p>翻译：布吉岛</p>
-						<p>藏书量：1200</p>
+						<p>{{r.title}}</p>
+						<p>翻译：{{r.translator}}</p>
+						<p>藏书量：{{r.numbers}}</p>
 					</div>
 				</div>
 			</section>
 		</div>
 </template>
 <script>
+import axios from "axios";
 export default {
-	method:{
+	data(){
+		return {
+			reserve:[]
+		}
+	},
+	methods:{
 		toDetail: function(id){
       this.$router.push({name:"detail",params:{id:id}});
     }
-	}
+	},
+  mounted() {
+    axios({
+      url: "/static/reserve.json",
+      method: "get"
+    })
+      .then(responseData => {
+				// console.log(responseData.data);
+        this.reserve = responseData.data;
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  }
 }
 </script>
 <style scoped>

@@ -88,7 +88,7 @@
         }
     ],
     "hot": [{
-            "id": "010101",
+            "id": "010201",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_1.png",
             "title": "计算机科学",
             "oldTitle": "Professional JavaScript for Web",
@@ -99,7 +99,7 @@
             "translator": "于今昌"
         },
         {
-            "id": "010102",
+            "id": "010202",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_2.png",
             "title": "Visual C++",
             "oldTitle": "Professional JavaScript for Web",
@@ -110,7 +110,7 @@
             "translator": "李松锋"
         },
         {
-            "id": "010103",
+            "id": "010203",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_3.png",
             "title": "电脑维修",
             "oldTitle": "Professional JavaScript for Web",
@@ -121,7 +121,7 @@
             "translator": "于今昌"
         },
         {
-            "id": "010104",
+            "id": "010204",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_4.png",
             "title": "JavaScript",
             "oldTitle": "Professional JavaScript for Web",
@@ -132,7 +132,7 @@
             "translator": "李松锋"
         },
         {
-            "id": "010105",
+            "id": "010205",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_5.png",
             "title": "微软电子商务",
             "oldTitle": "Professional JavaScript for Web",
@@ -143,7 +143,7 @@
             "translator": "于今昌"
         },
         {
-            "id": "010106",
+            "id": "010206",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_6.png",
             "title": "Microsoft SQL Server",
             "oldTitle": "Professional JavaScript for Web",
@@ -154,7 +154,7 @@
             "translator": "弗龙科维克"
         },
         {
-            "id": "010107",
+            "id": "010207",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_7.png",
             "title": "中文版Microsoft windows 2000 Professional",
             "oldTitle": "Professional JavaScript for Web",
@@ -165,7 +165,7 @@
             "translator": "ActiveEducation"
         },
         {
-            "id": "010108",
+            "id": "010208",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_8.png",
             "title": "中文版Microsoft Office 2000专家手册",
             "oldTitle": "Professional JavaScript for Web",
@@ -177,7 +177,7 @@
         }
     ],
     "recommend": [{
-            "id": "010101",
+            "id": "010301",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/rc_1.png",
             "title": "计算机科学",
             "oldTitle": "Professional JavaScript for Web",
@@ -188,7 +188,7 @@
             "translator": "于今昌"
         },
         {
-            "id": "010102",
+            "id": "010302",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/rc_2.png",
             "title": "Visual C++",
             "oldTitle": "Professional JavaScript for Web",
@@ -199,7 +199,7 @@
             "translator": "李松锋"
         },
         {
-            "id": "010103",
+            "id": "010303",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/rc_3.png",
             "title": "电脑维修",
             "oldTitle": "Professional JavaScript for Web",
@@ -210,7 +210,7 @@
             "translator": "于今昌"
         },
         {
-            "id": "010104",
+            "id": "010304",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/rc_4.png",
             "title": "JavaScript",
             "oldTitle": "Professional JavaScript for Web",
@@ -221,7 +221,7 @@
             "translator": "李松锋"
         },
         {
-            "id": "010105",
+            "id": "010305",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/rc_5.png",
             "title": "微软电子商务",
             "oldTitle": "Professional JavaScript for Web",
@@ -232,7 +232,7 @@
             "translator": "于今昌"
         },
         {
-            "id": "010106",
+            "id": "010306",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/rc_6.png",
             "title": "Microsoft SQL Server",
             "oldTitle": "Professional JavaScript for Web",

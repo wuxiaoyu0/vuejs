@@ -27,12 +27,12 @@ export default {
   data() {
     return {
       headerTitle: "蓝狐阅读",
-      routerName: "",
+      routerName: this.$route.path,
       menuItem: [
         {
           title: "图书馆",
           icon: "&#xe60c;",
-          link: "/",
+          link: "/home",
           name: "Home",
           headTitle: "蓝狐阅读"
         },
@@ -72,10 +72,18 @@ export default {
     changeTab: function(i, msg) {
       this.activeTab = i;
       this.headerTitle = msg;
+    },
+    fetchRouter:function(){
+      for(let i=0;i<this.menuItem.length;i++){
+        if(this.$route.path==this.menuItem[i].link){
+          this.headerTitle=this.menuItem[i].headTitle;
+          this.activeTab = i;
+        }
+      }
     }
   },
-  created: function() {
-    this.routerName = this.$route.name;
+  created() {
+    this.fetchRouter();
   }
 };
 </script>
