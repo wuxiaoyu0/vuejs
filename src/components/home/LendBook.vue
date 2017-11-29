@@ -32,5 +32,4 @@ export default {
   overflow-y: scroll;
 }
 @import "../../style/all.css";
-@import "../../style/index.css";
 </style>

@@ -1,7 +1,7 @@
 <template lang="html">
   <header>
       <p>{{showTitle}}</p>
-      <p class='iconfont'>&#xe66b;</p>
+      <p><router-link  to="search" class='iconfont' >&#xe66b;</router-link></p>
     </header>
 </template>
 

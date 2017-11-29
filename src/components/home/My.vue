@@ -30,3 +30,8 @@
 <script>
 export default {};
 </script>
+<style scoped>
+@import "../../assets/font/iconfont.css";
+@import "../../style/common.css";
+@import "../../style/all.css";
+</style>

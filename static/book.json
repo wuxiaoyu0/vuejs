@@ -1,184 +1,246 @@
 {
-    "timefree": [
-        {
+    "timefree": [{
             "id": "010101",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/tf_1.png",
             "title": "计算机科学",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "142",
-            "url": "./bookdetail.html",
-            "author": "于今昌"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "于今昌"
         },
         {
             "id": "010102",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/tf_2.png",
             "title": "Visual C++",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "245",
             "url": "./bookdetail.html",
-            "author": "李松锋"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "李松锋"
         },
         {
             "id": "010103",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/tf_3.png",
             "title": "电脑维修",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "721",
             "url": "./bookdetail.html",
-            "author": "于今昌"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "于今昌"
         },
         {
             "id": "010104",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/tf_4.png",
             "title": "JavaScript",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "247",
             "url": "./bookdetail.html",
-            "author": "李松锋"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "李松锋"
         },
         {
             "id": "010105",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/tf_5.png",
             "title": "微软电子商务",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "492",
             "url": "./bookdetail.html",
-            "author": "于今昌"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "于今昌"
         },
         {
             "id": "010106",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/tf_6.png",
             "title": "Microsoft SQL Server",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "607",
             "url": "./bookdetail.html",
-            "author": "弗龙科维克"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "弗龙科维克"
         },
         {
             "id": "010107",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/tf_1.png",
             "title": "中文版Microsoft windows 2000 Professional",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "225",
             "url": "./bookdetail.html",
-            "author": "ActiveEducation"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "ActiveEducation"
         },
         {
             "id": "010108",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/tf_2.png",
             "title": "中文版Microsoft Office 2000专家手册",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "707",
             "url": "./bookdetail.html",
-            "author": "Reed Jacobson"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "Reed Jacobson"
         }
     ],
-    "hot": [
-        {
-            "id": "010201",
+    "hot": [{
+            "id": "010101",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_1.png",
             "title": "计算机科学",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "142",
             "url": "./bookdetail.html",
-            "author": "于今昌"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "于今昌"
         },
         {
-            "id": "010202",
+            "id": "010102",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_2.png",
             "title": "Visual C++",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "245",
             "url": "./bookdetail.html",
-            "author": "李松锋"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "李松锋"
         },
         {
-            "id": "010203",
+            "id": "010103",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_3.png",
             "title": "电脑维修",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "721",
             "url": "./bookdetail.html",
-            "author": "于今昌"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "于今昌"
         },
         {
-            "id": "010204",
+            "id": "010104",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_4.png",
             "title": "JavaScript",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "247",
             "url": "./bookdetail.html",
-            "author": "李松锋"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "李松锋"
         },
         {
-            "id": "010205",
+            "id": "010105",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_5.png",
             "title": "微软电子商务",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "492",
             "url": "./bookdetail.html",
-            "author": "于今昌"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "于今昌"
         },
         {
-            "id": "010206",
+            "id": "010106",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_6.png",
             "title": "Microsoft SQL Server",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "607",
             "url": "./bookdetail.html",
-            "author": "弗龙科维克"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "弗龙科维克"
         },
         {
-            "id": "010207",
+            "id": "010107",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_7.png",
             "title": "中文版Microsoft windows 2000 Professional",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "225",
             "url": "./bookdetail.html",
-            "author": "ActiveEducation"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "ActiveEducation"
         },
         {
-            "id": "010208",
+            "id": "010108",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/hot_8.png",
             "title": "中文版Microsoft Office 2000专家手册",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "707",
             "url": "./bookdetail.html",
-            "author": "Reed Jacobson"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "Reed Jacobson"
         }
     ],
-    "recommend": [
-        {
-            "id": "010301",
+    "recommend": [{
+            "id": "010101",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/rc_1.png",
             "title": "计算机科学",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "142",
             "url": "./bookdetail.html",
-            "author": "于今昌"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "于今昌"
         },
         {
-            "id": "010302",
+            "id": "010102",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/rc_2.png",
             "title": "Visual C++",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "245",
             "url": "./bookdetail.html",
-            "author": "李松锋"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "李松锋"
         },
         {
-            "id": "010303",
+            "id": "010103",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/rc_3.png",
             "title": "电脑维修",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "721",
             "url": "./bookdetail.html",
-            "author": "于今昌"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "于今昌"
         },
         {
-            "id": "010304",
+            "id": "010104",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/rc_4.png",
             "title": "JavaScript",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "247",
             "url": "./bookdetail.html",
-            "author": "李松锋"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "李松锋"
         },
         {
-            "id": "010305",
+            "id": "010105",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/rc_5.png",
             "title": "微软电子商务",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "492",
             "url": "./bookdetail.html",
-            "author": "于今昌"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "于今昌"
         },
         {
-            "id": "010306",
+            "id": "010106",
             "image": "http://ogtx4h1fa.bkt.clouddn.com/rc_6.png",
             "title": "Microsoft SQL Server",
+            "oldTitle": "Professional JavaScript for Web",
             "numbers": "607",
             "url": "./bookdetail.html",
-            "author": "弗龙科维克"
+            "author": "",
+            "publishers": "人民邮电出版社",
+            "translator": "弗龙科维克"
         }
     ]
 }

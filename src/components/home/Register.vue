@@ -2,7 +2,7 @@
   <div class="container">
 			<header class="header register">
 				<p>注册</p>
-				<p  data-url="./login.html"><img src="http://ogtx4h1fa.bkt.clouddn.com/back.png"/></p>
+				<p><router-link to="login"><img src="http://ogtx4h1fa.bkt.clouddn.com/back.png"/></router-link></p>
 			</header>
 			<p class="headpic"><img src="http://ogtx4h1fa.bkt.clouddn.com/loginlogo.jpg"/></p>
 			<div class="loginfont"> <img src="http://ogtx4h1fa.bkt.clouddn.com/font.png"/></div>
@@ -20,10 +20,11 @@
 </template>
 <script>
 export default {
-  
+	
 }
 </script>
-
-<style>
-
+<style scoped>
+@import "../../assets/font/iconfont.css";
+@import "../../style/common.css";
+@import "../../style/all.css";
 </style>

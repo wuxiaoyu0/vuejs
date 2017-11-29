@@ -2,7 +2,7 @@
   <div class="container">
 			<section class="reseverc">
 				<div class="list">
-					<p class="bookpic"><img src="http://ogtx4h1fa.bkt.clouddn.com/tf_1.png"/></p>
+					<p @click="toDetail(r.id)" class="bookpic"><img src="http://ogtx4h1fa.bkt.clouddn.com/tf_1.png"/></p>
 					<div class="booktext">
 						<p>Javascript高级程序设计</p>
 						<p>翻译：布吉岛</p>
@@ -28,3 +28,17 @@
 			</section>
 		</div>
 </template>
+<script>
+export default {
+	method:{
+		toDetail: function(id){
+      this.$router.push({name:"detail",params:{id:id}});
+    }
+	}
+}
+</script>
+<style scoped>
+@import "../../assets/font/iconfont.css";
+@import "../../style/common.css";
+@import "../../style/all.css";
+</style>

@@ -13,10 +13,10 @@
             <span>限时免费</span>
           </div>
           <ul class="tfList">
-           <li v-for="(tf,i) in timefree">
+           <li @click="toDetail(tf.id)" v-for="(tf,i) in timefree">
              <img :src="tf.image" alt="">
              <p>{{tf.title}}</p>
-             <p>{{tf.author}}</p>
+             <p>{{tf.translator}}</p>
            </li>
           </ul>
           <div class="lookmore">查看更多</div>
@@ -26,10 +26,10 @@
             <span>热门推荐</span>
           </div>
           <ul class="tfList">
-            <li v-for="(h,i) in hot">
+            <li @click="toDetail(h.id)" v-for="(h,i) in hot">
               <img :src="h.image" alt="">
               <p>{{h.title}}</p>
-              <p>{{h.author}}</p>
+              <p>{{h.translator}}</p>
             </li>
           </ul>
           <div class="lookmore">
@@ -38,13 +38,13 @@
         </div>
         <div class="recommend">
       		<div class="reseverc">
-            <div class="list" v-for="(r,i) in recommend">
+            <div class="list" @click="toDetail(r.id)" v-for="(r,i) in recommend">
               <p class="bookpic">
                 <img :src="r.image"/>
               </p>
               <div class="booktext">
                 <p>{{r.title}}</p>
-                <p>翻译：{{r.author}}</p>
+                <p>翻译：{{r.translator}}</p>
                 <p>藏书量：{{r.numbers}}</p>
               </div>
             </div>
@@ -71,6 +71,9 @@ export default {
   methods: {
     changeTitle: function(i) {
       this.titleTab = i;
+    },
+    toDetail: function(id){
+      this.$router.push({name:"detail",params:{id:id}});
     }
   },
   mounted() {
@@ -99,5 +102,4 @@ export default {
   overflow-y: scroll;
 }
 @import "../../style/all.css";
-@import "../../style/index.css";
 </style>

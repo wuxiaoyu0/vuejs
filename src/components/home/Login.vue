@@ -2,7 +2,7 @@
   <div class="container">
 			<header>
 				<p>登录</p>
-				<p data-url="./register.html">注册</p>
+				<p><router-link to="register">注册</router-link></p>
 			</header>
 			<section>
 				<p class="headpic"><img src="http://ogtx4h1fa.bkt.clouddn.com/loginlogo.jpg"/></p>
@@ -18,3 +18,13 @@
 			</section>
 		</div>
 </template>
+<script>
+export default {
+	
+}
+</script>
+<style scoped>
+@import "../../assets/font/iconfont.css";
+@import "../../style/common.css";
+@import "../../style/all.css";
+</style>

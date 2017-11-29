@@ -6,7 +6,7 @@
 				<i class="iconfont  icon-search1 searicon"></i>
 				<i class="iconfont  icon-close1 seardel"></i>
 			</p>
-			<p data-url="./index.html">取消</p>
+			<p @click="back" >取消</p>
 		</header>
 		<div class="searbox">
 			<p class="seartitle">
@@ -38,3 +38,18 @@
 		</div>
   </div>
 </template>
+<script>
+export default {
+  methods: {
+    back: function() {
+      this.$router.go(-1);
+    }
+  }
+}
+</script>
+<style scoped>
+@import "../../assets/font/iconfont.css";
+@import "../../style/common.css";
+@import "../../style/all.css";
+</style>
+

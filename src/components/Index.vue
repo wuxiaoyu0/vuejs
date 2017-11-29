@@ -4,7 +4,7 @@
     <router-view />
     <footer>
       <ul>
-        <li v-for="(item,i) in menuItem"  @click="changeTab(i,item.headTitle)">
+        <li v-for="(item,i) in menuItem" @click="changeTab(i,item.headTitle)" >
           <router-link :to="item.link" class="menulink" v-bind:class="{ active: activeTab===i}">
             <i class="iconfont" v-html="item.icon"></i>
             {{ item.title }}
@@ -24,82 +24,79 @@ export default {
   components: {
     "my-header": Header
   },
-  data(){
+  data() {
     return {
-      headerTitle:"蓝狐阅读",
-      routerName:"",
+      headerTitle: "蓝狐阅读",
+      routerName: "",
       menuItem: [
         {
           title: "图书馆",
           icon: "&#xe60c;",
           link: "/",
-          name:"Home",
-          headTitle:"蓝狐阅读"
+          name: "Home",
+          headTitle: "蓝狐阅读"
         },
         {
           title: "借书",
           icon: "&#xe683;",
           link: "/lendBook",
-          name: 'LendBook',
-          headTitle:"借书"
+          name: "LendBook",
+          headTitle: "借书"
         },
         {
           title: "预定",
           icon: "&#xe62f;",
           link: "/reseve",
-          name: 'Reseve',
-          headTitle:"预定"
+          name: "Reseve",
+          headTitle: "预定"
         },
         {
           title: "还书",
           icon: "&#xe618;",
           link: "/retBook",
-          name: 'RetBook',
-          headTitle:"还书"
+          name: "RetBook",
+          headTitle: "还书"
         },
         {
           title: "我的",
           icon: "&#xe662;",
           link: "/mypage",
-          name: 'MY',
-          headTitle:"个人中心"
+          name: "MY",
+          headTitle: "个人中心"
         }
       ],
-      activeTab:0
+      activeTab: 0
+    };
+  },
+  methods: {
+    changeTab: function(i, msg) {
+      this.activeTab = i;
+      this.headerTitle = msg;
     }
   },
-  methods:{
-    changeTab: function(i,msg){
-      this.activeTab=i;
-      this.headerTitle = msg
-    }
-  },
-  created:function(){
+  created: function() {
     this.routerName = this.$route.name;
   }
 };
-
-
 </script>
 
 <style lang="css">
 @import "../assets/font/iconfont.css";
 @import "../style/common.css";
-.menulink{
-	flex: 1;
-	-webkit-flex: 1;
-	display: flex;
-	display: -webkit-flex;
-	flex-direction: column;
-	-webkit-flex-direction: column;
-	align-items: center;
-	-webkit-align-items: column;
-	font-size: 0.27rem;
-	line-height: 0.65rem;
-	color: #929292;
- 
+.menulink {
+  flex: 1;
+  -webkit-flex: 1;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  align-items: center;
+  -webkit-align-items: column;
+  font-size: 0.27rem;
+  line-height: 0.65rem;
+  color: #929292;
 }
-footer ul .menulink.active{
+footer ul .menulink.active {
   color: #4a90e2;
 }
 </style>
