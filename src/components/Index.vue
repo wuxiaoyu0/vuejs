@@ -4,7 +4,7 @@
     <router-view />
     <footer>
       <ul>
-        <li v-for="(item,i) in menuItem" @click="changeTab(i,item.headTitle)" >
+        <li v-for="(item,i) in menuItem" @click="changeTab(i,item.headTitle)" :key=i>
           <router-link :to="item.link" class="menulink" v-bind:class="{ active: activeTab===i}">
             <i class="iconfont" v-html="item.icon"></i>
             {{ item.title }}
